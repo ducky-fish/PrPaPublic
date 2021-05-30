@@ -1,0 +1,100 @@
+body {
+    margin:auto;
+    background-image: url('src/home.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.blur {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px); 
+    transition-duration: 1.5s;
+    height: 100vh;
+      width: 100%;
+  }
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+/*
+.center {
+    margin: auto;
+    text-align: center;
+    block-size: 25%;
+    width: 25%;
+    padding: 25px 25px;
+}
+
+button {
+    background-color:turquoise;
+    background-position: center;
+    text-align: center;
+    cursor: pointer;
+    padding: 15px 25px;
+    font: Tahoma;
+    font-size: medium;
+    outline: none;
+    opacity: 50;
+}
+
+.button:hover {background-color:lightyellow}
+
+
+
+.center {
+    display:initial;
+    justify-content:inherit;
+    align-items: center;
+    height: 200px;
+  }
+*/
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color:yellowgreen;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+
+  button:active {
+    transform: translateY(2px);
+    animation-duration: 1s;
+  }
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  .container {
+    width: 25%;
+    height: 30%;
+    padding: 16px;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+
